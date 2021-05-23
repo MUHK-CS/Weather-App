@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forecast_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".Forecast"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:paddingLeft="30sp"
+            android:text="7 Days Forecast"
+            android:textColor="#ffffff"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_gradient1">
+
+            <TextView
+
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Date"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"></Space>
+
+            <TextView
+
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Temperature"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+        </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview"></ListView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
