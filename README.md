@@ -16,7 +16,7 @@ After the welcome animation, it will ask for the location access.
 
 ![image](https://user-images.githubusercontent.com/76657240/119252682-24d5ec80-bbe0-11eb-87c4-556f98bf04c4.png)
 
-This is the home page, it displays the current weather details (Temperature, weather, minimum temperature, maximum temperature) from the city below. (In this case, this is the current location)
+This is the home page, it displays the current weather details from the city below. (In this case, this is the current location)
 
 ![image](https://user-images.githubusercontent.com/76657240/119252686-27384680-bbe0-11eb-83ae-a6f01bf2d1f2.png)
 
