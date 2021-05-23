@@ -1,5 +1,6 @@
 # Weather-App
 - This is a school project, only use for study!!!
+- This app use Android Studio to develop.
 
 Screenshot
 
